@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Futura PT Heavy';
+    src: url('/css/fonts/FuturaPT-Heavy.eot');
+    src: url('/css/fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('/css/fonts/FuturaPT-Heavy.woff') format('woff'),
+    url('/css/fonts/FuturaPT-Heavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Proxima Nova Regular';
+        src: url('/css/fonts/ProximaNova-Regular.eot');
+        src: url('/css/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/ProximaNova-Regular.woff') format('woff'),
+        url('/css/fonts/ProximaNova-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+
+body{
+    background: #464f54;
+}
+
+main {
+    position:relative;
+    background: #ffffff;
+    margin-top: 130px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 700px;
+    -webkit-box-shadow: -12px -10px 12px 0px rgba(34, 60, 80, 0.8);
+    -moz-box-shadow: -12px -10px 12px 0px rgba(34, 60, 80, 0.8);
+    box-shadow: -12px -10px 12px 0px rgba(34, 60, 80, 0.8);
+}
+
+.vl {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-left: 2px solid #e8eced;
+    height: 100%;
+  }
+
+
+.article {
+    padding-top: 150px;
+    padding-right: 50px;
+    margin-left: 100px;
+  }
+
+  
+.article h1{
+    font-size: 4.87rem;
+    font-family: 'Futura PT Heavy';
+   
+  }
+
+  .article h2{
+    position: relative;
+    top: -1rem;
+    /* border: 1px solid; */
+    font-size: 1.9rem;
+    color: #8f8f8f;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 100;
+  }
+
+  .article-autor {
+      font-size: 1.25rem;
+      color: #b4b4b4;
+      letter-spacing: 3px;
+      margin-bottom: 30px;
+  }
+
+  .article-autor>p {
+    font-family: 'Proxima Nova Regular';
+  }
+
+  .editor{    
+      position: absolute;
+      height: 200px;
+      width: 60%;   
+      top: 50px;
+      right: 0;
+      z-index: 1;
+  }
+
+   .editor-title{
+    box-sizing: border-box;
+    background-color: black;
+    padding: 3%;
+    
+   }
+
+   .editor-title>p{
+       color: #575757;
+       letter-spacing: 5px;
+   }
+
+   .editor-title>input{
+        padding-bottom: 10px;
+        border: none;
+        border-bottom: 2px solid #303030;
+        font-size: 3rem;
+        background-color: black;
+        display: block;
+        width: 100%;
+        color: #faf6f6;
+    }
+
+    .editor-title>input:focus{
+        outline: none;
+    }
+
+   .editor-panel {
+        padding: 1%;
+        display: flex;
+        background-color: #f3ba2c;
+        margin-left: 10%;
+   }
+
+   .editor-panel img{
+       margin-bottom: 0;
+       padding-bottom: 0;
+       margin-left: 30px;
+       display: block;
+       height: 30px;
+   }
+
+   .article p {
+    font-family: Georgia;
+    padding: 0.5rem 0;
+   }
+
+ 
+
+
